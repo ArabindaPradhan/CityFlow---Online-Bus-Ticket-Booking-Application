@@ -24,6 +24,6 @@ This project demonstrates my skills in full-stack development, Firebase integrat
 PPT:[Click here...](./CityFlowV2.pptx)
 
 <br>
-Reference images: <img src="./Screenshot (124).png" width="300" />
+Reference images: <img src="./Screenshot (124).png" width="100%" />
 <br>
-<img src="./Screenshot (125).png" width="300" />
+<img src="./Screenshot (125).png" width="100%" />
