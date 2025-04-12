@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.test.ui.home.HomeFragment"
+        android:label="CityFlow"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.test.BookTicket"
+        android:label="Book Ticket"
+        tools:layout="@layout/fragment_book_ticket"/>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.test.History"
+        android:label="History"
+        tools:layout="@layout/fragment_history"/>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.test.About"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.test.Settings"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.test.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.test.Contact"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.test.History"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+    <action
+        android:id="@+id/action_homeFragment_to_bookTicketFragment"
+        app:destination="@id/navigation_dashboard" />
+
+
+
+</navigation>
