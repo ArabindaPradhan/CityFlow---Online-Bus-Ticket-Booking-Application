@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740482516055",
+    "project_id": "testv2-ea4d8",
+    "storage_bucket": "testv2-ea4d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740482516055:android:4659f2226f3ce5a6900f12",
+        "android_client_info": {
+          "package_name": "com.example.busconductorappv2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi4V69kAMV0K-NM8SRRqyz4s1dIpLwNj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740482516055:android:4b3236bb4e111c16900f12",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi4V69kAMV0K-NM8SRRqyz4s1dIpLwNj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

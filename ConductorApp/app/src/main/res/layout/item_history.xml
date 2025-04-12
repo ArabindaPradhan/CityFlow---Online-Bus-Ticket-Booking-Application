@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/darker_gray"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/txtRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABC to XYZ"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtBookingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booked: "
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/txtPassengers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passengers: 3"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/txtTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price: ₹150"
+        android:textSize="14sp"/>
+</LinearLayout>
