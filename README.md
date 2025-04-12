@@ -21,4 +21,4 @@ Bus Conductor App (Android): Conductors can log in to scan booked tickets for a 
 
 This project demonstrates my skills in full-stack development, Firebase integration, and mobile & web application development.
 
-PPT:CityFlow---Online-Bus-Ticket-Booking-Application/CityFlowV2.pptx
+PPT:[Click here...](../CityFlowV2.pptx)
